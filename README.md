@@ -1,6 +1,7 @@
 
 ## Dataset Preparation
 
+```
 .
 ├── audio
 │   ├── KsponSpeech\_01.wav
@@ -8,6 +9,7 @@
 │   ├── KsponSpeech\_02.wav
 │   └── ... (more .wav files)
 └── transcriptions.jsonl
+```
 
 ### 1. Copy all audio files of KpsonSpeech\_01 into our target
 
