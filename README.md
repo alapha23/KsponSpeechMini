@@ -78,6 +78,7 @@ To change the evaluation set, change `dataset/test.json`
 ```
 python infer.py --language=Korean --audio_path=dataset/test.wav --model_path=models/whisper-tiny-finetune
 ```
+Replace `models/whisper-tiny-finetune` with the path to where you have downloaded the model
 
 ## To fine-tune another model
 
