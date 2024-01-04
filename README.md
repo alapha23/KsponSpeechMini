@@ -40,9 +40,12 @@ bash convert.sh
 
 This process will take aprox. 1~2 days
 
-#### 3. Create transcriptions.jsonl
+#### 3. Create transcriptions.jsonl (if you are not using `KsponSpeech_01`)
 
-Edit the script `load.py` so `super_directory` is where you can find folders from `KsponSpeech\_0001` to `KsponSpeech\_0124`.
+If you are using `KsponSpeech_01`, aka.`KsponSpeech\_0001` to `KsponSpeech\_0124`., then you can use the transcription.jsonl that comes with this repo as is, and can skip step 3 and 4 and go directly to evaluation or inference.
+
+Else, edit the script `load.py` so `super_directory` is where you can find folders from `KsponSpeech\_0001` to `KsponSpeech\_0124`.
+In my case, 
 ```
 super_directory = '/home/zgao/Documents/KsponSpeech/KsponSpeech_01/KsponSpeech_01/'
 
